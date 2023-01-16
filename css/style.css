@@ -40,6 +40,7 @@ main {
 }
 #special_sottotitolo {
     color: rgb(49, 175, 230);
+    text-decoration: none;
 }
 #data {
     margin-top: 0;
@@ -89,6 +90,7 @@ footer {
     width: 200px;
     background-size: contain;
     color: white;
+    text-decoration: none;
     font-weight: bold;
     padding: 5px;
 }
@@ -97,4 +99,12 @@ footer {
 }
 .secondo {
     background-image: url("../img/monitor.jpg");
+}
+
+a:visited {
+  display: none;
+}
+.link_footer {
+    color: white;
+    text-decoration: none;
 }
