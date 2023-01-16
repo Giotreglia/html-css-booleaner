@@ -59,6 +59,10 @@ main {
     font-size: 8px;
     margin: 0;
 }
+.lista_senza_spazio_iniziale {
+    padding: 0;
+    list-style-position: inside;
+}
 
 table {
     border-collapse: collapse;
