@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+}
+header {
+    margin: 0;
+    height: 80px;
+    width: 100%;
+    background-color: rgba(78, 160, 255, 0.9);
+    background-image: url("img/pattern.png");
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+main {
+    width: 95%;
+    margin: 10px;
+}
+#intestazione {
+    height: 100%;
+    background-image: url("img/pattern.png");
+    background-size: contain;
+}
+#logo_booleaner {
+    margin: 30px 10px 10px;
+    height: 40px;
+}
+.sfondo_header {
+    height: 100%;
+    float: left;
+}  
+#sezione_titolo {
+    margin-bottom: 20px;
+}
+#titolo {
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+#sottotitolo {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: grey;
+    font-size: 14px;
+    font-weight: 500;
+}
+#special_sottotitolo {
+    color: aqua;
+}
+#data {
+    margin-top: 0;
+    font-size: 9px;
+    color: grey;
+}
+#contenitore_immagini {
+    height: 330px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+#contenitore_immagini img {
+    height: 100%;
+}
+#contenitore_immagini p {
+    font-size: 8px;
+    line-height: 8px;
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+.cln1, .cln2 {
+    width: 25%;
+} 
+table th {
+    text-align: left;
+}
+thead tr {
+    background-color: rgb(32, 169, 229);
+    color: white;
+}
+.riga_colorata {
+    background-color: rgb(177, 229, 242);
+}
