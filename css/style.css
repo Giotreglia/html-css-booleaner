@@ -2,21 +2,23 @@ body {
     margin: 0;
 }
 header {
-    margin: 0;
     height: 80px;
-    width: 1000px;
-    background-color: rgba(78, 160, 255, 0.9);
+    width: 100%;
+    background-color: rgba(78, 160, 255, 0.7);
+    background-image: url("../img/pattern.png");
+    background-size: 25%;
+    background-repeat: repeat;
 }
 
 main {
     width: 1000px;
-    margin: 10px;
+    margin: auto;
 }
 #intestazione {
+    width: 1000px;
+    margin: auto;
     height: 80px;
-    background-image: url("../img/pattern.png");
-    background-size: 32%;
-    background-repeat: repeat;
+
 }
 #logo_booleaner {
     margin: 30px 10px 10px;
@@ -75,8 +77,9 @@ thead tr {
 }
 
 footer {
-    margin: 10px;
+    margin: auto;
     color: grey;
+    width: 1000px;
 }
 
 .quadrato_footer {
